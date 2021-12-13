@@ -1,0 +1,70 @@
+{
+  "name": "vaesen-saivu",
+  "title": "Sáivu - An Vaesen mystery Module",
+  "description": "",
+  "author": "Niclas Jareborg",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.8",
+  "packs": [
+  	{
+  		"name": "module-actors",
+  		"label": "",
+  		"system": ["vaesen"],
+      "path": "./packs/actors.db",
+      "entity": "Actor"
+  	},
+    {
+      "name": "module-items",
+      "label": "Module Items",
+  		"system": ["vaesen"],
+      "path": "./packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "module-scenes",
+      "label": "Module Scenes",
+  		"system": ["vaesen"],
+      "path": "./packs/scenes.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "module-journal-entries",
+      "label": "Module Journal Entries",
+  		"system": ["vaesen"],
+      "path": "./packs/journal-entries.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "module-macros",
+      "label": "Module Macros",
+  		"system": ["vaesen"],
+      "path": "./packs/macros.db",
+      "entity": "Macro"
+    },
+    {
+      "name": "module-roll-tables",
+      "label": "Module Roll Tables",
+  		"system": ["vaesen"],
+      "path": "./packs/roll-tables.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "module-playlists",
+      "label": "Module Playlists",
+  		"system": ["vaesen"],
+      "path": "./packs/playlists.db",
+      "entity": "Playlist"
+    }
+
+  ],
+  "dependencies": [
+    {
+      "name": "vaesen",
+      "type": "system"
+    }
+  ],
+  "system": ["vaesen"],
+  "manifest": "",
+  "download": ""
+
+}
