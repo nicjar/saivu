@@ -1,6 +1,6 @@
 {
   "name": "vaesen-saivu",
-  "title": "Sáivu - An Vaesen mystery Module",
+  "title": "Sáivu - A Vaesen mystery Module",
   "description": "",
   "author": "Niclas Jareborg",
   "version": "1.0.0",
@@ -11,6 +11,7 @@
   		"label": "",
   		"system": ["vaesen"],
       "path": "./packs/actors.db",
+      "module": "vaesen-saivu",
       "entity": "Actor"
   	},
     {
@@ -18,6 +19,7 @@
       "label": "Module Items",
   		"system": ["vaesen"],
       "path": "./packs/items.db",
+      "module": "vaesen-saivu",
       "entity": "Item"
     },
     {
@@ -25,6 +27,7 @@
       "label": "Module Scenes",
   		"system": ["vaesen"],
       "path": "./packs/scenes.db",
+      "module": "vaesen-saivu",
       "entity": "Scene"
     },
     {
@@ -32,6 +35,7 @@
       "label": "Module Journal Entries",
   		"system": ["vaesen"],
       "path": "./packs/journal-entries.db",
+      "module": "vaesen-saivu",
       "entity": "JournalEntry"
     },
     {
@@ -39,6 +43,7 @@
       "label": "Module Macros",
   		"system": ["vaesen"],
       "path": "./packs/macros.db",
+      "module": "vaesen-saivu",
       "entity": "Macro"
     },
     {
@@ -46,6 +51,7 @@
       "label": "Module Roll Tables",
   		"system": ["vaesen"],
       "path": "./packs/roll-tables.db",
+      "module": "vaesen-saivu",
       "entity": "RollTable"
     },
     {
@@ -53,6 +59,7 @@
       "label": "Module Playlists",
   		"system": ["vaesen"],
       "path": "./packs/playlists.db",
+      "module": "vaesen-saivu",
       "entity": "Playlist"
     }
 
@@ -63,8 +70,5 @@
       "type": "system"
     }
   ],
-  "system": ["vaesen"],
-  "manifest": "",
-  "download": ""
-
+  "system": ["vaesen"]
 }
