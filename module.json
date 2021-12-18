@@ -70,5 +70,6 @@
       "type": "system"
     }
   ],
+  "manifest": "https://raw.githubusercontent.com/nicjar/vaesen-saivu/master/module.json",
   "system": ["vaesen"]
 }
