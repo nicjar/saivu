@@ -8,7 +8,7 @@
   "packs": [
   	{
   		"name": "module-actors",
-  		"label": "",
+  		"label": "Module Actors",
   		"system": ["vaesen"],
       "path": "./packs/actors.db",
       "module": "vaesen-saivu",
@@ -62,7 +62,6 @@
       "module": "vaesen-saivu",
       "entity": "Playlist"
     }
-
   ],
   "dependencies": [
     {
@@ -72,5 +71,4 @@
   ],
   "manifest": "https://raw.githubusercontent.com/nicjar/vaesen-saivu/master/module.json",
   "system": ["vaesen"]
-  
 }
