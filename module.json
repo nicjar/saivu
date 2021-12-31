@@ -10,7 +10,7 @@
   		"name": "saivu-actors",
   		"label": "Sáivu Actors",
   		"system": ["vaesen"],
-      "path": "./packs/actors.db",
+      "path": "./packs/saivu-actors.db",
       "module": "vaesen-saivu",
       "entity": "Actor"
   	},
@@ -18,7 +18,7 @@
       "name": "saivu-items",
       "label": "Sáivu Items",
   		"system": ["vaesen"],
-      "path": "./packs/items.db",
+      "path": "./packs/saivu-items.db",
       "module": "vaesen-saivu",
       "entity": "Item"
     },
@@ -26,7 +26,7 @@
       "name": "saivu-scenes",
       "label": "Sáivu Scenes",
   		"system": ["vaesen"],
-      "path": "./packs/scenes.db",
+      "path": "./packs/saivu-scenes.db",
       "module": "vaesen-saivu",
       "entity": "Scene"
     },
@@ -34,33 +34,17 @@
       "name": "saivu-journal-entries",
       "label": "Sáivu Journal Entries",
   		"system": ["vaesen"],
-      "path": "./packs/journal-entries.db",
+      "path": "./packs/saivu-journal-entries.db",
       "module": "vaesen-saivu",
       "entity": "JournalEntry"
     },
     {
-      "name": "saivu-macros",
-      "label": "Sáivu Macros",
+      "name": "saivu-journal-entries-illustrations",
+      "label": "Sáivu Journal Entries Illustrations",
   		"system": ["vaesen"],
-      "path": "./packs/macros.db",
+      "path": "./packs/saivu-journal-entries-illustrations.db",
       "module": "vaesen-saivu",
-      "entity": "Macro"
-    },
-    {
-      "name": "saivu-roll-tables",
-      "label": "Sáivu Roll Tables",
-  		"system": ["vaesen"],
-      "path": "./packs/roll-tables.db",
-      "module": "vaesen-saivu",
-      "entity": "RollTable"
-    },
-    {
-      "name": "saivu-playlists",
-      "label": "Sáivu Playlists",
-  		"system": ["vaesen"],
-      "path": "./packs/playlists.db",
-      "module": "vaesen-saivu",
-      "entity": "Playlist"
+      "entity": "JournalEntry"
     }
   ],
   "dependencies": [
