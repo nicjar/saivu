@@ -67,6 +67,10 @@
     {
       "name": "vaesen",
       "type": "system"
+    },
+    {
+      "name": "jal",
+      "type": "module"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/nicjar/vaesen-saivu/master/module.json",
