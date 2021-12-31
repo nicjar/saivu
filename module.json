@@ -7,56 +7,56 @@
   "minimumCoreVersion": "0.8.8",
   "packs": [
   	{
-  		"name": "module-actors",
-  		"label": "Module Actors",
+  		"name": "saivu-actors",
+  		"label": "Sáivu Actors",
   		"system": ["vaesen"],
       "path": "./packs/actors.db",
       "module": "vaesen-saivu",
       "entity": "Actor"
   	},
     {
-      "name": "module-items",
-      "label": "Module Items",
+      "name": "saivu-items",
+      "label": "Sáivu Items",
   		"system": ["vaesen"],
       "path": "./packs/items.db",
       "module": "vaesen-saivu",
       "entity": "Item"
     },
     {
-      "name": "module-scenes",
-      "label": "Module Scenes",
+      "name": "saivu-scenes",
+      "label": "Sáivu Scenes",
   		"system": ["vaesen"],
       "path": "./packs/scenes.db",
       "module": "vaesen-saivu",
       "entity": "Scene"
     },
     {
-      "name": "module-journal-entries",
-      "label": "Module Journal Entries",
+      "name": "saivu-journal-entries",
+      "label": "Sáivu Journal Entries",
   		"system": ["vaesen"],
       "path": "./packs/journal-entries.db",
       "module": "vaesen-saivu",
       "entity": "JournalEntry"
     },
     {
-      "name": "module-macros",
-      "label": "Module Macros",
+      "name": "saivu-macros",
+      "label": "Sáivu Macros",
   		"system": ["vaesen"],
       "path": "./packs/macros.db",
       "module": "vaesen-saivu",
       "entity": "Macro"
     },
     {
-      "name": "module-roll-tables",
-      "label": "Module Roll Tables",
+      "name": "saivu-roll-tables",
+      "label": "Sáivu Roll Tables",
   		"system": ["vaesen"],
       "path": "./packs/roll-tables.db",
       "module": "vaesen-saivu",
       "entity": "RollTable"
     },
     {
-      "name": "module-playlists",
-      "label": "Module Playlists",
+      "name": "saivu-playlists",
+      "label": "Sáivu Playlists",
   		"system": ["vaesen"],
       "path": "./packs/playlists.db",
       "module": "vaesen-saivu",
