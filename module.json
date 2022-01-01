@@ -3,13 +3,14 @@
   "title": "Sáivu - A Vaesen mystery Module",
   "description": "",
   "author": "Niclas Jareborg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "9",
   "packs": [
   	{
-  		"name": "saivu-actors",
-  		"label": "Sáivu Actors",
-  		"system": ["vaesen"],
+      "name": "saivu-actors",
+      "label": "Sáivu Actors",
+      "system": ["vaesen"],
       "path": "./packs/saivu-actors.db",
       "module": "vaesen-saivu",
       "entity": "Actor"
@@ -17,7 +18,7 @@
     {
       "name": "saivu-items",
       "label": "Sáivu Items",
-  		"system": ["vaesen"],
+      "system": ["vaesen"],
       "path": "./packs/saivu-items.db",
       "module": "vaesen-saivu",
       "entity": "Item"
@@ -25,7 +26,7 @@
     {
       "name": "saivu-scenes",
       "label": "Sáivu Scenes",
-  		"system": ["vaesen"],
+      "system": ["vaesen"],
       "path": "./packs/saivu-scenes.db",
       "module": "vaesen-saivu",
       "entity": "Scene"
@@ -33,7 +34,7 @@
     {
       "name": "saivu-journal-entries",
       "label": "Sáivu Journal Entries",
-  		"system": ["vaesen"],
+      "system": ["vaesen"],
       "path": "./packs/saivu-journal-entries.db",
       "module": "vaesen-saivu",
       "entity": "JournalEntry"
@@ -41,7 +42,7 @@
     {
       "name": "saivu-journal-entries-illustrations",
       "label": "Sáivu Journal Entries Illustrations",
-  		"system": ["vaesen"],
+      "system": ["vaesen"],
       "path": "./packs/saivu-journal-entries-illustrations.db",
       "module": "vaesen-saivu",
       "entity": "JournalEntry"
@@ -58,6 +59,6 @@
     }
   ],
   "manifest": "https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json",
-  "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.0.zip",
+  "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.1.zip",
   "system": ["vaesen"]
 }
