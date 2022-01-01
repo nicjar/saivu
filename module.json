@@ -3,7 +3,7 @@
   "title": "Sáivu - A Vaesen mystery Module",
   "description": "",
   "author": "Niclas Jareborg",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "minimumCoreVersion": "0.8.8",
   "packs": [
   	{
@@ -57,7 +57,7 @@
       "type": "module"
     }
   ],
-  "manifest": "https://github.com/nicjar/vaesen-saivu/releases/download/v0.1.1/module.json",
-  "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.1.zip",
+  "manifest": "https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json",
+  "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.0.zip",
   "system": ["vaesen"]
 }
