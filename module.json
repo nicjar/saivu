@@ -8,44 +8,54 @@
   "compatibleCoreVersion": "9.238",
   "packs": [
   	{
+      "label": "Sáivu Actors",
+      "type": "Actor",
       "name": "saivu-actors",
-      "label": "Saivu Actors",
-      "system": ["vaesen"],
-      "path": "./packs/saivu-actors.db",
-      "module": "vaesen-saivu",
-      "entity": "Actor"
+      "path": "packs/saivu-actors.db",
+      "system": "vaesen",
+      "package": "module",
+      "entity": "Actor",
+      "private": false
   	},
     {
+      "label": "Sáivu items",
+      "type": "Item",
       "name": "saivu-items",
-      "label": "Saivu Items",
-      "system": ["vaesen"],
-      "path": "./packs/saivu-items.db",
-      "module": "vaesen-saivu",
-      "entity": "Item"
+      "path": "packs/saivu-items.db",
+      "system": "vaesen",
+      "package": "module",
+      "entity": "Item",
+      "private": false
     },
     {
+      "label": "Sáivu Scenes",
+      "type": "Scene",
       "name": "saivu-scenes",
-      "label": "Saivu Scenes",
-      "system": ["vaesen"],
-      "path": "./packs/saivu-scenes.db",
-      "module": "vaesen-saivu",
-      "entity": "Scene"
+      "path": "packs/saivu-scenes.db",
+      "system": "vaesen",
+      "package": "module",
+      "entity": "Scene",
+      "private": false
     },
     {
+      "label": "Sáivu Journal Entries",
+      "type": "JournalEntry",
       "name": "saivu-journal-entries",
-      "label": "Saivu Journal Entries",
-      "system": ["vaesen"],
-      "path": "./packs/saivu-journal-entries.db",
-      "module": "vaesen-saivu",
-      "entity": "JournalEntry"
-    },
+      "path": "packs/saivu-journal-entries.db",
+      "system": "vaesen",
+      "package": "module",
+      "entity": "JournalEntry",
+      "private": false
+   },
     {
+      "label": "Sáivu Journal Entries Illustrations",
+      "type": "JournalEntry",
       "name": "saivu-journal-entries-illustrations",
-      "label": "Saivu Journal Entries Illustrations",
-      "system": ["vaesen"],
-      "path": "./packs/saivu-journal-entries-illustrations.db",
-      "module": "vaesen-saivu",
-      "entity": "JournalEntry"
+      "path": "packs/saivu-journal-entries-illustrations.db",
+      "system": "vaesen",
+      "package": "module",
+      "entity": "JournalEntry",
+      "private": false
     }
   ],
   "dependencies": [
@@ -60,5 +70,6 @@
   ],
   "manifest": "https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json",
   "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.3.zip",
-  "system": ["vaesen"]
+  "system": ["vaesen"],
+  "library": false
 }
