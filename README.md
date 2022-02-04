@@ -12,6 +12,10 @@ An old childhood friend asks for help in solving a series of unexplained events 
 
 The mystery centres around racism and colonialism towards the Sami, and the player characters have to choose if they should be loyal to the Swedes or solve the mystery by helping a group of Sami.
 
+## Project home
+
+https://github.com/nicjar/vaesen-saivu
+
 ## Installation
 
 ### Manifest URL
