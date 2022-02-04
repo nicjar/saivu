@@ -48,4 +48,4 @@ This work contains material that is copyright Fria Ligan AB, Johan Egerkrans and
 
 All other original material in this work is copyright 2021 by Niclas Jareborg and published under the Community Content Agreement for Free League Workshop.
 
-![Free League Workshop logo](doc/FLW_eng_cent_pos.png)
+![Free League Workshop logo](doc/FLW_eng_cent_pos.jpg)
