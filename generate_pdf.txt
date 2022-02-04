@@ -1,0 +1,1 @@
+pandoc -s -V geometry:margin=3cm -V papersize:a4 -V colorlinks=true -V fontsize=11pt README.md -o README.pdf
