@@ -14,16 +14,27 @@ The mystery centres around racism and colonialism towards the Sami, and the play
 
 ## Installation
 
+### Manifest URL
+
+`https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json`
+
+### Step-by-step guide
+
 * In your Foundry instance, go to the *Add-on Modules* tab of Configuration and Setup.
 * Click the *Install Module* button at the bottom of the screen.
-* Paste `https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json` into the *Manifest URL:* textbox at the bottom of the Install Module pop-up window. Click Install.
-![Install screenshot](doc/install.jpg)
-* Launch your Vaesen world, go to Game Settings, then Manage Modules.
-* Select the Sáivu - _A Vaesen mystery Module_ and _[Journal Anchor Links](#journal-anchor-links)_ module. Click the _Save Module Settings_ button.
+* Paste the the [Manifest URL](#manifest-url) above into the *Manifest URL: textbox* at the bottom of the Install Module pop-up window. Click Install.
+
+![](doc/install.jpg)
+
+  * Launch your Vaesen world, go to Game Settings, then Manage Modules.
+* Select the Sáivu - _A Vaesen mystery Module_ and the _[Journal Anchor Links](#journal-anchor-links)_ module. Click the _Save Module Settings_ button.
 * Go to the _Compendium Packs_ tab. For **each** of the Compendiums, right click to get pop-up menu and select _Import All Content_.
-  ![Import all Content screenshot](doc/import_all_content.jpg)
-  * Be sure to select the _Keep Document IDs?_ checkbox in the _Import All Content_ pop-up window, otherwise Journal Links etc will not work. Click the _Yes_ button.
-  ![Keep Document IDs screenshot](doc/keep_document_ids.jpg)
+
+	![](doc/import_all_content.jpg)
+
+  * **Note!** Be sure to select the _Keep Document IDs?_ checkbox in the _Import All Content_ pop-up window, otherwise Journal Links etc will not work. Click the _Yes_ button.
+
+	![](doc/keep_document_ids.jpg)
 
   * Repeat for the rest of the Compendiums.
 * That's it!
@@ -48,4 +59,4 @@ This work contains material that is copyright Fria Ligan AB, Johan Egerkrans and
 
 All other original material in this work is copyright 2021 by Niclas Jareborg and published under the Community Content Agreement for Free League Workshop.
 
-![Free League Workshop logo](doc/FLW_eng_cent_pos.jpg)
+![](doc/FLW_eng_cent_pos.jpg)
