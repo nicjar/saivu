@@ -21,7 +21,7 @@ The mystery centres around racism and colonialism towards the Sami, and the play
 * Launch your Vaesen world, go to Game Settings, then Manage Modules.
 * Select the Sáivu - _A Vaesen mystery Module_ and _[Journal Anchor Links](#journal-anchor-links)_ module. Click the _Save Module Settings_ button.
 * Go to the _Compendium Packs_ tab. For **each** of the Compendiums, right click to get pop-up menu and select _Import All Content_.
-![Import all Content screenshot](doc/import_all_content.jpg)
+  ![Import all Content screenshot](doc/import_all_content.jpg)
   * Be sure to select the _Keep Document IDs?_ checkbox in the _Import All Content_ pop-up window, otherwise Journal Links etc will not work. Click the _Yes_ button.
   ![Keep Document IDs screenshot](doc/keep_document_ids.jpg)
 
