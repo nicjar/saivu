@@ -1,31 +1,25 @@
 {
-  "name": "vaesen-saivu",
   "title": "Sáivu - A Vaesen mystery Module",
   "description": "Content of the Sáivu mystery for Vaesen",
-  "author": "Niclas Jareborg",
   "version": "0.1.4",
-  "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "9.249",
   "packs": [
-  	{
+    {
       "label": "Sáivu Actors",
       "type": "Actor",
       "name": "saivu-actors",
       "path": "packs/saivu-actors.db",
       "system": "vaesen",
-      "package": "module",
-      "entity": "Actor",
-      "private": false
-  	},
+      "private": false,
+      "flags": {}
+    },
     {
       "label": "Sáivu items",
       "type": "Item",
       "name": "saivu-items",
       "path": "packs/saivu-items.db",
       "system": "vaesen",
-      "package": "module",
-      "entity": "Item",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Sáivu Scenes",
@@ -33,9 +27,8 @@
       "name": "saivu-scenes",
       "path": "packs/saivu-scenes.db",
       "system": "vaesen",
-      "package": "module",
-      "entity": "Scene",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Sáivu Journal Entries",
@@ -43,34 +36,52 @@
       "name": "saivu-journal-entries",
       "path": "packs/saivu-journal-entries.db",
       "system": "vaesen",
-      "package": "module",
-      "entity": "JournalEntry",
-      "private": false
-   },
+      "private": false,
+      "flags": {}
+    },
     {
       "label": "Sáivu Journal Entries Illustrations",
       "type": "JournalEntry",
       "name": "saivu-journal-entries-illustrations",
       "path": "packs/saivu-journal-entries-illustrations.db",
       "system": "vaesen",
-      "package": "module",
-      "entity": "JournalEntry",
-      "private": false
-    }
-  ],
-  "dependencies": [
-    {
-      "name": "vaesen",
-      "type": "system"
-    },
-    {
-      "name": "jal",
-      "type": "module"
+      "private": false,
+      "flags": {}
     }
   ],
   "url": "https://github.com/nicjar/vaesen-saivu",
   "manifest": "https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json",
   "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.4.zip",
-  "system": ["vaesen"],
-  "library": false
+  "id": "vaesen-saivu",
+  "authors": [
+    {
+      "name": "Niclas Jareborg",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "jal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "vaesen",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "vaesen",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.8.8",
+    "verified": "9.249"
+  }
 }
