@@ -31,7 +31,7 @@ https://github.com/nicjar/vaesen-saivu
 ![](doc/install.jpg)
 
   * Launch your Vaesen world, go to Game Settings, then Manage Modules.
-* Select the Sáivu - _A Vaesen mystery Module_ and the _[Journal Anchor Links](#journal-anchor-links)_ module. Click the _Save Module Settings_ button.
+* Select the Sáivu - _A Vaesen mystery Module_ module. Click the _Save Module Settings_ button.
 * Go to the _Compendium Packs_ tab. For **each** of the Compendiums, right click to get pop-up menu and select _Import All Content_.
 
 	![](doc/import_all_content.jpg)
