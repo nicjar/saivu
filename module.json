@@ -1,7 +1,7 @@
 {
   "title": "Sáivu - A Vaesen mystery Module",
   "description": "Content of the Sáivu mystery for Vaesen",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "packs": [
     {
       "label": "Sáivu Actors",
@@ -51,7 +51,7 @@
   ],
   "url": "https://github.com/nicjar/vaesen-saivu",
   "manifest": "https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json",
-  "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.4.zip",
+  "download": "https://github.com/nicjar/vaesen-saivu/archive/refs/tags/v0.1.5.zip",
   "id": "vaesen-saivu",
   "authors": [
     {
@@ -60,28 +60,19 @@
     }
   ],
   "relationships": {
-    "requires": [
-      {
-        "id": "jal",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
     "systems": [
       {
         "id": "vaesen",
         "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "vaesen",
-        "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "3.0.4",
+          "verified": "3.0.4"
+        }
       }
     ]
   },
   "compatibility": {
-    "minimum": "0.8.8",
-    "verified": "9.249"
+    "minimum": "10",
+    "verified": "10.291"
   }
 }
