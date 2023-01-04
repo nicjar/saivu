@@ -51,10 +51,6 @@ To use this module you have to have a world created in your Foundry VTT instance
 
 The vaesen-saivu module is **NOT** dependent on the [Vaesen - Official Core Rulebook module](https://freeleaguepublishing.com/en/store/?product_id=7092046200981) that is available for purchase, and does not use any assets from that module.
 
-### Journal Anchor Links
-
-To have the links in the Journal entries and Map notes in the Scene function properly, you need to have the [Journal Anchor Links Add-on module](https://github.com/aMediocreDad/jal) installed and activated.
-
 ## Licence
 
 This product was created under license. Vaesen and its logo are trademarks of Fria Ligan AB and Johan Egerkrans.
