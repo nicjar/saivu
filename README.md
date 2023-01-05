@@ -22,7 +22,7 @@ _See [Updating content](#updating-content) below if you want to update a previou
 
 ### v0.1.6
 
-_3 January 2022_
+_3 January 2023_
 
 - Improved the resolution of the map of the Glibbo scene
 - Updated the journal entries to Foundry v10
