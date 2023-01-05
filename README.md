@@ -16,22 +16,40 @@ The mystery centres around racism and colonialism towards the Sami, and the play
 
 https://github.com/nicjar/vaesen-saivu
 
+## Recent changes
+
+_See [Updating content](#updating-content) below if you want to update a previous installation._
+
+### v0.1.6
+
+_3 January 2022_
+
+- Improved the resolution of the map of the Glibbo scene
+- Updated the journal entries to Foundry v10
+- Removed the dependency of the Journal Anchor Links module
+
 ## Installation
+
+Unfortunately, I don't have the time to script installation and updating of the module content, so this has to be done manually. This is really straight-forward, see instructions below.
 
 ### Manifest URL
 
 `https://github.com/nicjar/vaesen-saivu/releases/latest/download/module.json`
 
-### Step-by-step guide
+### Installation step-by-step guide
+
+#### Install Module
 
 * In your Foundry instance, go to the *Add-on Modules* tab of Configuration and Setup.
 * Click the *Install Module* button at the bottom of the screen.
-* Paste the the [Manifest URL](#manifest-url) above into the *Manifest URL: textbox* at the bottom of the Install Module pop-up window. Click Install.
+* Paste the the [Manifest URL](#manifest-url) above into the *Manifest URL:* textbox at the bottom of the Install Module pop-up window. Click Install.
 
 ![](doc/install.jpg)
 
-  * Launch your Vaesen world, go to Game Settings, then Manage Modules.
-* Select the Sáivu - _A Vaesen mystery Module_ module. Click the _Save Module Settings_ button.
+#### Add module content to your Vaesen world
+
+* Launch your Vaesen world, go to _Game Settings_, then _Manage Modules_.
+* Select the _Sáivu - A Vaesen mystery Module_ module. Click the _Save Module Settings_ button.
 * Go to the _Compendium Packs_ tab. For **each** of the Compendiums, right click to get pop-up menu and select _Import All Content_.
 
 	![](doc/import_all_content.jpg)
@@ -40,8 +58,18 @@ https://github.com/nicjar/vaesen-saivu
 
 	![](doc/keep_document_ids.jpg)
 
-  * Repeat for the rest of the Compendiums.
+* Repeat for the rest of the Compendiums.
 * That's it!
+
+### Updating Content
+
+* In your Foundry instance, go to the *Add-on Modules* tab of Configuration and Setup.
+* Scroll down to the Sáivu module, and click the *Update* button on the right hand side of the screen.
+
+![](doc/update.jpg)
+
+* When the module is updated to a new version, one or more compendiums will be updated. But the already imported content will **not** be updated automatically. You will have to re-import the compendium content again using the instructions above.
+  * To avoid duplications or loss of changes you've made, the best thing to do is do a clean re-install. Remove old content that you have not changed, and make copies of content that you have changed before re-importing.
 
 ## Dependencies
 
